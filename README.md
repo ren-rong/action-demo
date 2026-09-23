@@ -1,6 +1,6 @@
 # 电商订单服务自动化测试与 CI 实践
 
-[![Python CI](https://github.com/ren-rong/action-demo/actions/workflows/python-ci.yml/badge.svg)](https://github.com/ren-rong/action-demo/actions/workflows/python-ci.yml)
+
 
 一个面向测试开发工程师的实践项目，基于简化的电商订单业务，使用 **Python + pytest + pytest-cov** 构建自动化测试体系，并通过 **GitHub Actions** 实现持续集成。
 
@@ -96,7 +96,7 @@ pytest --cov=order_service --cov-report=html
 - 测试矩阵：Python 3.10 / 3.11 / 3.12 并行执行
 - 执行内容：安装依赖 → 运行 pytest → 输出测试覆盖率
 
-## 如何迁移到自己的项目
+## 【备注：如何迁移到自己的项目】模版
 
 1. 将本仓库文件上传至你的 GitHub 仓库根目录；
 2. 将 `order_service.py` 替换为你的业务模块；
